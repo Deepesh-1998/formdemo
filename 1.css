@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+nav{
+    height: fit-content;
+    display: flex;
+    border: 2px solid black;
+    gap: 50px;
+}
+nav h3{
+    margin: 0;
+    padding: 10.72px 10px;
+}
+#contact{
+    border: 2px solid black;
+}
+.table-content{
+    border: 2px solid black;
+    width: 100%;
+}
+.marquee{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+}
+form{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.label h4{
+    margin: 0;
+    padding: 0;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 6px;
+}
+#button{
+    background-color: white;
+    border-radius: 8px;
+}
